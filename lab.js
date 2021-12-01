@@ -24,10 +24,10 @@
 
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
+// var amysAge = 29
+// var brittanisAge = 34
+// var amysBirthYear = 1991
+// var brittanisBirthYear = 1986
 
 ////////// PROBLEM 2 //////////
 
@@ -60,8 +60,8 @@ var brittanisBirthYear = 1986
 
 ////////// PROBLEM 4 //////////
 
- let temperature = 81
- let rain = false
+//  let temperature = 81
+//  let rain = false
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -128,30 +128,54 @@ var brittanisBirthYear = 1986
 ////////// PROBLEM 8 //////////
 
 /*
-  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
+  Create a while-loop that logs "Your score is not high enough" while the score variable 
+  above is below passingScore. In each iteration of the loop, increase the score by one. 
+  If your code is successful, you will see your logged statement 7 times.
 */
 
-//CODE HERE
+// while(score  < passingScore){
+//   console.log(`Your score is not high enough.`)
+//   score += 1
+// }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
 /*
   Create a variable called 'changeMyMind' and set it equal to true. 
-  Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
+  Check to see if changeMyMind is set to true or false, if it is true, 
+  change the status to false, if it is false, change the status to true.
 
 */
 
-//CODE HERE
+// let changeMyMind = false
+
+// if (changeMyMind === true){
+//   console.log(`false`)
+// } else {
+//   console.log(`true`)
+// }
 
 ////////// PROBLEM 10 //////////
-// Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
+// Try to change the value of changeMyMind (irrespective of whether it is true or false) 
+//and then console.log it's new status. It should log true. Hint: use the not operator.
 
-//CODE HERE
+let changeMyMind = false
+
+// if (changeMyMind === true){
+//   changeMyMind = false
+//   console.log(changeMyMind)
+// } else {
+//   changeMyMind = true
+//   console.log(changeMyMind)
+// }
+
+// changeMyMind = !changeMyMind
+//   console.log(changeMyMind)
 
 
 
-////////// ADVANCED PROBLEMS //////////
+////////// ADVANCED PROBLEM //////////
 
 ////////// PROBLEM 11 //////////
 
@@ -159,10 +183,4 @@ var brittanisBirthYear = 1986
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
-
-// For problems 2-3 use the following lines of code:
-// var amysAge = 29
-// var brittanisAge = 34
-// var amysBirthYear = 1991
-// var brittanisBirthYear = 1986
 
